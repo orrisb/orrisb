@@ -4,65 +4,15 @@
 <link href="https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans" rel="stylesheet">
 <link href="styles/style.css" rel="stylesheet" type="text/css">
 <title>Getting Started with the Web</title>
-<style type="text/css">
-<!--
-
-.coolmenu{
-width: 200px;
-}
-
-.coolmenu td{
-background-color:bisque;
-cursor:hand;
-font-family:Arial;
-font-weight:bold;
-}
-
-.coolmenu td a{
-text-decoration:none;
-color:black;
-}
-
-.coolmenu td#boxdescription{
-background: ivory;
-height: 25px;
-font-weight: normal;
-}
-
--->
-</style>
-
-<script language="javascript">
-<!--
-
-/*
-Cool Table Menu
-By Clarence Eldefors (http://www.freebox.com/cereweb) with modifications from javascriptkit.com
-Visit http://javascriptkit.com for this and over 400+ other scripts
-*/
-
-
-
-function movein(which,html){
-which.style.background='coral'
-if (document.getElementById)
-document.getElementById("boxdescription").innerHTML=html
-else
-boxdescription.innerHTML=html
-}
-
-function moveout(which){
-which.style.background='bisque'
-if (document.getElementById)
-document.getElementById("boxdescription").innerHTML=' '
-else
-boxdescription.innerHTML=' '
-}
-
-//-->
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="#" id="projects">Projects</a>
+  <a href="#" id="contact">Contact</a>
+</div>
 
 <img src="images/website.jpg" alt="Getting Started with the web" width="1215" height="150">
 <script type="text/javascript">
@@ -81,8 +31,17 @@ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
 </script>
 
 
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">Installing Basic Software</a>
+  <a href="#news">What will your website look like</a>
+  <a href="#Dealing with Files">Dealing with Files</a>
+  <a href="#css bacis">Css Basics</a>
+  <a href="#javascript basics">Javascript Basics</a>
+  <a href="#Publishing your Website">Publishing your Website</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 <form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
-
 <input name="q" type="hidden" />
 <input name="qfront" type="text" style="width: 180px" /> <input type="submit" value="Search" /></p>
 
