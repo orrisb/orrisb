@@ -1,33 +1,66 @@
 html {
-  font-size: 36px;
-  font-family: 'Tangerine', cursive;
-  background-color: #00539F
+  font-size: 20px;
+  font-family: 'Roboto Slab', Serif;
+  background-color: green;
 }
+/*positioning and styling main page title*/
 h1 {
-  font-size: 74px;
+  font-size: 60px;
   text-align: center;
   margin: 0;
-  padding: 2px 0;
+  padding: 20px 0;
   color: blue;
-  text-shadow: 5px 5px 3px black;
-  text-decoration: underlined;
+  text-shadow: 3px 3px 1px black;
 }
+/*And now some CSS to apply to our HTML:*/
 p, li {
-  font-size: 36px;
-  line-height: 1.5;
-  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 2px;
 }
+
 body {
-  width: 1215px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 10px 15px 10px;
-  border: 4px solid black;
+  margin: 0;
 }
+
+
+#wrapper * {
+  padding: 20px;
+  font-size: 20px;
+  border: 20px solid rgba(0,0,0,0.5);
+}
+
+/* specific boxes */
+
+#wrapper header, #wrapper footer {
+  background-color: blue;
+  color: white;
+}
+
+#wrapper main {
+  background-color: yellow;
+}
+
+#wrapper header {
+
+}
+
+#wrapper footer {
+
+}
+div.a {
+    position: absolute;
+	right: 40px;
+	left: 1575px;
+    border: 0px;
+}
+
 img {
-  display: center;
+  display: block;
   margin: 0 auto;
 }
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -120,5 +153,3 @@ img {
     top: 200px;
     background-color: #555
 }
-
-
