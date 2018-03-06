@@ -5,10 +5,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/pexels.jpg') {
-      myImage.setAttribute ('src','images/website.jpg');
+    if(mySrc === 'images/seventeen.jpg') {
+      myImage.setAttribute ('src','images/eighteen.jpg');
     } else {
-      myImage.setAttribute ('src','images/pexels.jpg');
+      myImage.setAttribute ('src','images/seventeen.jpg');
     }
 }
 
@@ -34,10 +34,19 @@ myButton.onclick = function() {
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-    var x = document.getElementById("dropdown");
-    if (x.className === "dropdown") {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
 }
+    document.createElement('article');
+    document.createElement('section');
+    document.createElement('aside');
+    document.createElement('hgroup');
+    document.createElement('nav');
+    document.createElement('header'); 
+    document.createElement('footer');
+    document.createElement('figure');
+    document.createElement('figcaption'); 
