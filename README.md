@@ -10,6 +10,6 @@ HTML5 is the most exciting step forward in web development.
 
 HTML5 is the future of web design, it is a welcoming enhancement that increases the flexibility and usefulness of HTML.
 
-### Markdown
+### Essentials:
 
 It also solves problems; for instance, it can dispense with plugins for embedded video and audio clips, and the number of video file formats is drastically reduced. A raft of new semantic tags makes coding and maintaining the website much easier.
