@@ -1,3 +1,50 @@
+<!-- Listing 1-7a. The new HTML5 listing (HTML5-Ch1-7.html) -->
+<!doctype html>
+    <html lang=en>
+        <head>
+            <title>Test page for semantic tags </title>
+            <meta charset="utf-8">
+            <link rel=”stylesheet” type=”text/css” href="HTML5-style-2.css">
+                <!--conditional Javascript added-->
+                <!--[if lte IE 8]>
+                    <script src="html5.js"></script>
+                <![endif]-->
+        </head>
+        <body>
+        <header><!--<div id="hdr"> changed to <header>-->
+            <h1>Devon's Rural Retreats</h1>
+        </header>
+            <!--close top section - content area starts -->
+        <div id="content">
+            <h2>Award winning accommodation, self catering or bed and breakfast</h2>
+            <div id="leftcol">
+                <h3>Cottages, converted barns, caravans</h3>
+				<img alt="Cottage interior" title="Cottage interior" height="225" src="images/cotdining300.jpg" width="300"><br>The superb interior of one of our cottages
+            </div>
+            <nav><!--use the semantic tag <nav>-->
+                <ul><!--start of menu list-->
+                    <li class="btn"> <a href="accommodation.html" title="Accommodation">Accommodation</a></li>
+                    <li class="btn"><a href="maps.html" title="Location Maps">Maps</a></li>
+					<li class="btn"><a href="faqs.html" title="Frequently Asked Questions">Information</a></li>
+                    <li class="btn"><a href="attractions.html" title="Local attractions">Attractions</a></li>
+                    <li class="btn"><a href="contact.html" title="Contact us">Contact Us</a></li>
+                    <li class="btn"><a href="index.html" title="Return to Home Page">Home Page</a></li>
+                </ul><!--end of menu list-->
+            </nav><!--</div> removed and replaced with </nav>-->
+            <div id="midcol">
+                <h3>Situated in the UK's beautiful Devon countryside</h3>
+                <img title="Devon countryside" alt="Devon countryside" src="images/devon398.jpg" height="229" width="398">
+            </div>
+            <!-- 17CHAPTER 1 ■ MOVING TO HTML5 -->
+            <br class="clear">
+        </div><!--content section closed-->
+        <!--<div id=footer"> changed to <footer>-->
+        <footer><p>Footer goes here</p>
+        </footer>
+    </body>
+</html>
+
+<!--
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
@@ -6,7 +53,7 @@
 <script src="ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <title>Getting Started with the Web</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics --
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21599503-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -15,7 +62,7 @@
 
   gtag('config', 'UA-21599503-2');
 </script>
-
+<!--
 </head>
 </body>
 <h1>Getting Started with the Web</h1>
@@ -27,6 +74,7 @@
 </div>
 
 <img src="images/thirteen.jpg" alt="Getting Started with the web">
+
 <script type="text/javascript">
 
 // Google Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
@@ -125,4 +173,5 @@ How the web works outlines what happens when you view a webpage on your computer
   <script src="scripts/main.js"></script>
 </body>
 </html>
+-->
   
