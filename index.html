@@ -1,5 +1,6 @@
  
 Figure 4-7 illustrates how the Home tab becomes part of the Home page. Figure 4-8 shows what 
+<!--
 happens when a different tab is clicked. In the following section, we will run through a quick tutorial 
 using Figures 4-7 and 4-8 as the basis of the instructions. 
 Figure 4-8. Now, page four is selected. 
@@ -16,38 +17,78 @@ On each page, amend the page title and move the item class=”active” down one
 alongside the relevant page. On the index.html markup I have shown the class=”active” in bold. 
 In the following listings, to change the images on each page in this example, I used the sample 
 images in Windows XP. 
- <!-- CHAPTER 4 ■ ROLLOVER MENUS ==>
+ <!-- CHAPTER 4 ■ ROLLOVER MENUS --
+
+Listing 4-7a. Creating the Home Page for the Tab Menu (index.html)
+-->
+
+    <!-- Listing 4-7a. Creating the Home Page for the Tab Menu (index.html) -->
+
+<!Doctype html> 
+
+<html lang="en"> 
+
+    <head> 
+
+        <title>The home page. Square tabs</title> 
+
+        <meta charset=utf-8>title>The home page. Square tabs</title> 
+
+        <meta charset=utf-8>
 
 <meta name="author" content="Ian Andolina"> 
-meta details go here 
-<link rel="stylesheet" type="text/css" href="squaretabs.css"> 
-<!--Add conditional JavaScript--> 
-<!--[if lte IE 8]> 
-<script src="html5.js" type="text/javascript"> 
-</script> 
-<![endif]--> 
-</head> 
-<body> 
-<div id="container"> 
-<header> 
- <h1>This is a tab menu</h1> 
-</header> 
-<nav> 
- <ul> 
- <li><a class="active" href="index.html">Home Page</a></li> 
- <li><a href="page2.html">Page Two</a></li> 
- <li><a href="page3.html">Page Three with a long label</a></li> 
- <li><a href="page4.html">Page Four</a></li> 
- <li><a href="page5.html">Page Five</a></li> 
- </ul> 
-</nav> 
-<div id="content"> 
-<b>This is the home page</b> 
-<p><img title="Koala" alt="Koala" height="165" src="images/Koalasmall.jpg" 
-width="220"></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p> 
+
+        <!-- meta details go here -->
+
+        <link rel="stylesheet" type="text/css" href="squaretabs.css"> 
+
+        <!--Add conditional JavaScript--> 
+
+        <!--[if lte IE 8]> 
+
+        <script src="html5.js" type="text/javascript"> 
+        </script> 
+        <![endif]--> 
+
+    </head> 
+
+    <body> 
+
+        <div id="container"> 
+
+            <!-- <Listing 4-7a. Creating the Home Page for the Tab Menu (index.html) -->
+
+        <header> 
+            <h1>This is a tab menu</h1> 
+        </header> 
+
+        <nav> 
+
+            <ul> 
+
+                <li><a class="active" href="index.html">Home Page</a></li> 
+
+                <li><a href="page2.html">Page Two</a></li> 
+
+                <li><a href="page3.html">Page Three with a long label</a></li> 
+
+                <li><a href="page4.html">Page Four</a></li> 
+
+                <li><a href="page5.html">Page Five</a></li> 
+
+                </ul> 
+            </nav> 
+            <div id="content"> 
+                <b>This is the home page</b> 
+                <p><img title="Koala" alt="Koala" height="165" width="220"></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p> 
 </div></div> 
 </body> 
 </html> 
+
+
+
+
+
 <!--
 The middle block of code in Listing 4-8 would change as shown in bold. 
 Listing 4-8a. (page4.html)
